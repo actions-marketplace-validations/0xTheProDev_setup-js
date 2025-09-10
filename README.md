@@ -42,7 +42,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
 ```
 
 - **Setup Specific Node Version (v22.x):**
@@ -71,7 +71,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           version: 22.x
 ```
@@ -102,7 +102,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           version-file: .nvmrc
 ```
@@ -133,7 +133,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           cache: yarn
 ```
@@ -164,7 +164,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           cache: pnpm
 ```
@@ -195,7 +195,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           cache: bun
 ```
@@ -226,7 +226,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           cache: bun
           cache-version: 1.x
@@ -258,7 +258,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           cache: bun
           cache-version-file: .bun-version
@@ -290,7 +290,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           runtime: bun
 ```
@@ -321,7 +321,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           runtime: bun
           version: 1.x
@@ -353,7 +353,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Workspace
-        uses: 0xTheProDev/setup-js@v1.2
+        uses: 0xTheProDev/setup-js@v1.3
         with:
           runtime: bun
           version-file: .bun-version
